@@ -2,6 +2,7 @@
 
 Experiments using Dotty to improve the [endpoints](https://github.com/julienrf/endpoints) library.
 
-- [x] extension methods on abstract type members
+- [x] extension methods on abstract type members ([definition](https://github.com/julienrf/dotty-endpoints/blob/2480a28c4958179dd89b3713afd5a5d537f3d345/src/main/scala/endpoints/algebra/Endpoints.scala#L33-L40), [usage](https://github.com/julienrf/dotty-endpoints/blob/2480a28c4958179dd89b3713afd5a5d537f3d345/src/main/scala/endpoints/example/Main.scala#L13))
+- [x] abstract implicit members ([definition](https://github.com/julienrf/dotty-endpoints/blob/2480a28c4958179dd89b3713afd5a5d537f3d345/src/main/scala/endpoints/algebra/Endpoints.scala#L30-L32))
 - [ ] generic tuple representation
 - [ ] code generation at runtime
